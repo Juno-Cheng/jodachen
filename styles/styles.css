@@ -852,14 +852,14 @@ textarea {
     
 }
 
-@media (max-height: 00px) {
+@media (max-height: 600px) {
     #content {
         height: 800vh; /* Adjusted height for max-height: 500px */
     }
 
     .container2 {
         text-align: center;
-        margin-top: 150vh !important; /* Adding !important to test if it takes effect */
+        margin-top: 180vh !important; /* Adding !important to test if it takes effect */
         /* Other styles */
     }
     
@@ -867,20 +867,158 @@ textarea {
 
 
 /* Media Query for screens with a max-height of 409px */
-@media (max-height: 470px) {
+@media (max-height: 500px) {
     #content {
         height: 900vh; /* Adjusted height for max-height: 409px */
     }
+
+    .container2 {
+        text-align: center;
+        margin-top: 240vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
 }
 
 @media (max-height: 470px) {
     #content {
-        height: 1300vh; /* Adjusted height for max-height: 409px */
+        height: 1000vh; /* Adjusted height for max-height: 409px */
+    }
+
+    .container2 {
+        text-align: center;
+        margin-top: 260vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
     }
 }
 
-@media (max-height: 280px) {
+@media (max-height: 430px) {
     #content {
         height: 1700vh; /* Adjusted height for max-height: 409px */
     }
+
+    .container2 {
+        text-align: center;
+        margin-top: 290vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+
+    /* Base styles */
+    .AboutMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 10%;
+        width: 100%;
+        color: #fff;
+        font-family: 'Georgia', serif;
+    }
+
 }
+
+
+@media (max-height: 400px) {
+    #content {
+        height: 1800vh; /* Adjusted height for max-height: 409px */
+    }
+
+    .container2 {
+        text-align: center;
+        margin-top: 320vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+
+    /* Base styles */
+    .AboutMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 10%;
+        width: 100%;
+        color: #fff;
+        font-family: 'Georgia', serif;
+    }
+
+
+}
+
+@media (max-height: 350px) {
+    #content {
+        height: 1900vh; /* Adjusted height for max-height: 409px */
+    }
+
+    .container2 {
+        text-align: center;
+        margin-top: 350vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+
+    /* Base styles */
+    .AboutMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 10%;
+        width: 100%;
+        color: #fff;
+        font-family: 'Georgia', serif;
+    }
+
+
+}
+
+
+@media (max-height: 330px) {
+    #content {
+        height: 1900vh; /* Adjusted height for max-height: 409px */
+    }
+
+    .container2 {
+        text-align: center;
+        margin-top: 390vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+
+    /* Base styles */
+    .AboutMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 10%;
+        width: 100%;
+        color: #fff;
+        font-family: 'Georgia', serif;
+    }
+
+}
+
+@media (max-height: 330px) {
+    #content {
+        height: 1700vh; /* Adjusted height for max-height: 409px */
+    }
+
+    .container2 {
+        text-align: center;
+        margin-top: 430vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+
+    /* Base styles */
+    .AboutMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 10%;
+        width: 100%;
+        color: #fff;
+        font-family: 'Georgia', serif;
+    }
+
+
+}
+
+
