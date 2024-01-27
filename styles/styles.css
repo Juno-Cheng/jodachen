@@ -723,21 +723,7 @@ a:active, button:active {
     color: #000;
 }
 
-/* Responsive adjustments for smaller screens */
-@media (max-width: 768px) {
-    .AboutMe .about-me-image {
-        width: 50vw; /* Adjust as necessary for smaller screens */
-        margin-top: 10px;
-    }
 
-    .social-icons {
-        flex-direction: column; /* Stack icons vertically on smaller screens */
-    }
-
-    .cv-button {
-        width: auto; /* Let the button size adjust to its content */
-    }
-}
 
 /* Additional media queries can be added to fine-tune the design at other breakpoints */
 
@@ -778,20 +764,6 @@ a:active, button:active {
     transform: translateY(-50%); /* Additional upward adjustment */
 }
 
-@media (max-width: 1000px) {
-    .contact-line-svg {
-        position: relative; /* or absolute, depending on your layout */
-        top: 800px; /* Adjust this value to lower the SVG */
-        overflow-x: hidden; /* This will hide the horizontal scrollbar */
-        max-width: 100%;
-
-
-        /* Other styles as needed */
-    }
-
-}
-
-
 
 .contact-header {
     font-family: "Expletus Sans"; /* Specified font */
@@ -804,19 +776,6 @@ a:active, button:active {
     position: relative; /* Needed for adjusting position */
     top: -90vh; /* Move up by 50px, adjust as needed */
     /* Additional styling for the header */
-}
-@media (max-width: 1000px) {
-    .contact-header {
-        font-family: "Expletus Sans"; /* Specified font */
-        font-size: 40px; /* Large font size */
-        font-weight: 700; /* Bold font weight */
-        color: #fff; /* Adjust the color as needed */
-        margin-bottom: 20px; /* Space below the header */
-        text-align: center; /* Center align the text */
-        letter-spacing: 15px; /* Add spacing between each character */
-        position: relative; /* Needed for adjusting position */
-        top:0px; /* Adjust this value to lower the header on smaller screens */
-    }
 }
 
 
@@ -866,3 +825,62 @@ textarea {
 
 /*==================================================================================*/
 /* Responsive adjustments */
+
+@media (max-height: 800px) {
+    #content {
+        height: 600vh; /* Adjusted height for max-height: 500px */
+    }
+    .container2 {
+        text-align: center;
+        margin-top: 120vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+    
+
+}
+
+@media (max-height: 700px) {
+    #content {
+        height: 800vh; /* Adjusted height for max-height: 500px */
+    }
+
+    .container2 {
+        text-align: center;
+        margin-top: 150vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+    
+}
+
+@media (max-height: 00px) {
+    #content {
+        height: 800vh; /* Adjusted height for max-height: 500px */
+    }
+
+    .container2 {
+        text-align: center;
+        margin-top: 150vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+    
+}
+
+
+/* Media Query for screens with a max-height of 409px */
+@media (max-height: 470px) {
+    #content {
+        height: 900vh; /* Adjusted height for max-height: 409px */
+    }
+}
+
+@media (max-height: 470px) {
+    #content {
+        height: 1300vh; /* Adjusted height for max-height: 409px */
+    }
+}
+
+@media (max-height: 280px) {
+    #content {
+        height: 1700vh; /* Adjusted height for max-height: 409px */
+    }
+}
