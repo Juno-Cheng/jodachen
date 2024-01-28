@@ -826,6 +826,48 @@ textarea {
 /*==================================================================================*/
 /* Responsive adjustments */
 
+@media (max-height: 1400px) {
+    #content {
+        height: 600vh; /* Adjusted height for max-height: 1000px */
+    }
+    .container2 {
+        text-align: center;
+        margin-top: 50vh !important;
+    }
+
+    .Contact {
+        margin-top: 25vh !important; /* Adjust this value as needed */
+    }
+}
+
+@media (max-height: 1200px) {
+    #content {
+        height: 600vh; /* Adjusted height for max-height: 1000px */
+    }
+    .container2 {
+        text-align: center;
+        margin-top: 120vh !important;
+    }
+
+    .Contact {
+        margin-top: 15vh !important; /* Adjust this value as needed */
+    }
+}
+
+@media (max-height: 1000px) {
+    #content {
+        height: 600vh; /* Adjusted height for max-height: 1000px */
+    }
+    .container2 {
+        text-align: center;
+        margin-top: 120vh !important;
+    }
+
+    .Contact {
+        margin-top: 0vh !important; /* Adjust this value as needed */
+    }
+}
+
 @media (max-height: 800px) {
     #content {
         height: 600vh; /* Adjusted height for max-height: 500px */
@@ -1020,5 +1062,4 @@ textarea {
 
 
 }
-
 
