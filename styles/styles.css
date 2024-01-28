@@ -842,11 +842,11 @@ textarea {
 
 @media (max-height: 1200px) {
     #content {
-        height: 600vh; /* Adjusted height for max-height: 1000px */
+        height: 400vh; /* Adjusted height for max-height: 1000px */
     }
     .container2 {
         text-align: center;
-        margin-top: 120vh !important;
+        margin-top: 100vh !important;
     }
 
     .Contact {
@@ -856,7 +856,7 @@ textarea {
 
 @media (max-height: 1000px) {
     #content {
-        height: 600vh; /* Adjusted height for max-height: 1000px */
+        height: 500vh; /* Adjusted height for max-height: 1000px */
     }
     .container2 {
         text-align: center;
@@ -870,7 +870,7 @@ textarea {
 
 @media (max-height: 800px) {
     #content {
-        height: 600vh; /* Adjusted height for max-height: 500px */
+        height: 530vh; /* Adjusted height for max-height: 500px */
     }
     .container2 {
         text-align: center;
@@ -883,7 +883,7 @@ textarea {
 
 @media (max-height: 700px) {
     #content {
-        height: 800vh; /* Adjusted height for max-height: 500px */
+        height: 600vh; /* Adjusted height for max-height: 500px */
     }
 
     .container2 {
@@ -891,12 +891,24 @@ textarea {
         margin-top: 150vh !important; /* Adding !important to test if it takes effect */
         /* Other styles */
     }
+
+    .Contact{
+        margin-top: -30vh !important;
+    }
     
 }
 
 @media (max-height: 600px) {
+    .container{
+        margin-top: -50vh !important;
+    }
+
+    .text{
+        margin-top: -50vh !important;
+    }
+
     #content {
-        height: 800vh; /* Adjusted height for max-height: 500px */
+        height: 700vh; /* Adjusted height for max-height: 500px */
     }
 
     .container2 {
@@ -904,26 +916,26 @@ textarea {
         margin-top: 180vh !important; /* Adding !important to test if it takes effect */
         /* Other styles */
     }
-    
+
+    .Contact{
+        margin-top: -50vh !important;
+    }
 }
 
 
 /* Media Query for screens with a max-height of 409px */
 @media (max-height: 500px) {
-    #content {
-        height: 900vh; /* Adjusted height for max-height: 409px */
+
+    .container{
+        margin-top: -5vh !important;
     }
 
-    .container2 {
-        text-align: center;
-        margin-top: 240vh !important; /* Adding !important to test if it takes effect */
-        /* Other styles */
+    .text{
+        margin-top: -5vh !important;
     }
-}
 
-@media (max-height: 470px) {
     #content {
-        height: 1000vh; /* Adjusted height for max-height: 409px */
+        height: 800vh; /* Adjusted height for max-height: 409px */
     }
 
     .container2 {
@@ -931,16 +943,49 @@ textarea {
         margin-top: 260vh !important; /* Adding !important to test if it takes effect */
         /* Other styles */
     }
+    .AboutMe {
+        text-align: center;
+        margin-top: 40vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+
+    .Contact{
+        margin-top: -70vh !important;
+    }
 }
 
-@media (max-height: 430px) {
+@media (max-height: 470px) {
     #content {
-        height: 1700vh; /* Adjusted height for max-height: 409px */
+        height: 900vh; /* Adjusted height for max-height: 409px */
+    }
+
+    .container2 {
+        text-align: center;
+        margin-top: 260vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+
+    .AboutMe {
+        text-align: center;
+        margin-top: 40vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+}
+
+@media (max-height: 440px) {
+    #content {
+        height: 1000vh; /* Adjusted height for max-height: 409px */
     }
 
     .container2 {
         text-align: center;
         margin-top: 290vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+
+    .AboutMe {
+        text-align: center;
+        margin-top: 40vh !important; /* Adding !important to test if it takes effect */
         /* Other styles */
     }
 
@@ -956,17 +1001,27 @@ textarea {
         font-family: 'Georgia', serif;
     }
 
+    .Contact{
+        margin-top: -90vh !important;
+    }
+
 }
 
 
 @media (max-height: 400px) {
     #content {
-        height: 1800vh; /* Adjusted height for max-height: 409px */
+        height: 1000vh; /* Adjusted height for max-height: 409px */
     }
 
     .container2 {
         text-align: center;
         margin-top: 320vh !important; /* Adding !important to test if it takes effect */
+        /* Other styles */
+    }
+
+    .AboutMe {
+        text-align: center;
+        margin-top: 70vh !important; /* Adding !important to test if it takes effect */
         /* Other styles */
     }
 
@@ -987,7 +1042,7 @@ textarea {
 
 @media (max-height: 350px) {
     #content {
-        height: 1900vh; /* Adjusted height for max-height: 409px */
+        height: 1200vh; /* Adjusted height for max-height: 409px */
     }
 
     .container2 {
@@ -1008,58 +1063,12 @@ textarea {
         font-family: 'Georgia', serif;
     }
 
-
-}
-
-
-@media (max-height: 330px) {
-    #content {
-        height: 1900vh; /* Adjusted height for max-height: 409px */
-    }
-
-    .container2 {
-        text-align: center;
-        margin-top: 390vh !important; /* Adding !important to test if it takes effect */
-        /* Other styles */
-    }
-
-    /* Base styles */
-    .AboutMe {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        top: 10%;
-        width: 100%;
-        color: #fff;
-        font-family: 'Georgia', serif;
-    }
-
-}
-
-@media (max-height: 330px) {
-    #content {
-        height: 1700vh; /* Adjusted height for max-height: 409px */
-    }
-
-    .container2 {
-        text-align: center;
-        margin-top: 430vh !important; /* Adding !important to test if it takes effect */
-        /* Other styles */
-    }
-
-    /* Base styles */
-    .AboutMe {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        top: 10%;
-        width: 100%;
-        color: #fff;
-        font-family: 'Georgia', serif;
+    .Contact{
+        margin-top: -120vh !important;
     }
 
 
 }
+
+
 
