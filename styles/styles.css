@@ -173,7 +173,7 @@ a:active, button:active {
 	display: flex;
 	position: absolute;
 
-	font-family: "Expletus Sans";
+	font-family: "Expletus Sans" ;
 
 	top: 375px;
 
@@ -492,6 +492,7 @@ a:active, button:active {
     padding: 20px;
     border: 1px solid rgba(26, 188, 156, 1);
     display: flex;
+
     flex-direction: column;
     justify-content: space-between;
     opacity: 0;
@@ -505,10 +506,12 @@ a:active, button:active {
 .project-box h2 {
     color: #ffffff; /* Red color for the heading to match the border */
     margin-bottom: 5px;
+    font-family: initial;
 }
 
 .project-box p {
     margin-bottom: 15px;
+    font-family: initial;
 }
 
 .project-link {
